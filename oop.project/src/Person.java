@@ -38,6 +38,7 @@ public class Person {
     }
 
     public void setAge(int age) {
+        if(age>=17)
         this.age = age;
     }
 
@@ -78,6 +79,7 @@ public class Person {
     }
 
     public void setPassword(String password) {
+        if(password.length()>=6)
         this.password = password;
     }
 
