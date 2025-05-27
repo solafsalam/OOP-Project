@@ -12,7 +12,7 @@ public class Teacher extends Person {
 
     public Teacher() {
         this.department =null;
-        this.subjects = null;
+        this.subjects = new ArrayList<>();
     }
 
     public String getDepartment() {
